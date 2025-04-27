@@ -1,0 +1,16 @@
+[project]
+name = "stock-close"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "streamlit>=1.44.1",
+    "yfinance>=0.2.56",
+]
+
+[tool.uv.workspace]
+members = [
+    "simple_ml_iris",
+]
